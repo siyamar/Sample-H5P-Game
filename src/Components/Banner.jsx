@@ -12,21 +12,21 @@ const Banner = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <h3 className="text-lg font-medium">Play Like The</h3>
-          <h1 className="text-4xl font-bold">G.O.A.T.</h1>
-          <p className="mt-4">1-click instant play</p>
+          <h3 className="text-3xl font-medium">Play Like The</h3>
+          <h1 className="text-7xl font-bold">G.O.A.T.</h1>
+          <p className="mt-4 ">1-click instant play</p>
           <p>No Download</p>
           <p>1000s of supported online games</p>
-          <div className="mt-6 space-x-4">
+          <div className="mt-8 space-x-2">
             <motion.button
               whileHover={{ scale: 1.1 }}
-              className="bg-white text-blue-500 px-4 py-2 rounded"
+              className="btn btn-secondary"
             >
               Sign In
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.1 }}
-              className="bg-gray-300 text-blue-500 px-4 py-2 rounded"
+              className="btn  btn-secondary"
             >
               <Link to={"/play"}>Play</Link>
             </motion.button>

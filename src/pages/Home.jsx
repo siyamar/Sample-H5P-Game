@@ -1,7 +1,6 @@
 import Banner from "../Components/Banner";
 import Footer from "../Components/Footer";
 import FunnyVideos from "../Components/FunnyVideos";
-import Navbar from "../Components/Navbar";
 
 function Home() {
   return (
@@ -10,7 +9,6 @@ function Home() {
       <button className="btn btn-primary mx-8">
         <Link to={"/play"}>Play</Link>
       </button> */}
-      <Navbar />
       <Banner />
       <FunnyVideos />
       <Footer />

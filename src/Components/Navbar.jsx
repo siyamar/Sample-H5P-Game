@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 import "tailwindcss/tailwind.css";
 
 const Navbar = () => {
@@ -17,20 +18,23 @@ const Navbar = () => {
           </p>
         </div>
         <div className="flex space-x-4">
-          <a href="#about" className="hover:text-red-500">
+          <Link to={"/"} className="hover:text-red-500">
+            Home
+          </Link>
+          <Link to={"/aboutUs"} className="hover:text-red-500">
             About Us
-          </a>
-          <a href="#developers" className="hover:text-red-500">
+          </Link>
+          <Link to={"/Developers"} className="hover:text-red-500">
             Developers
-          </a>
-          <a
-            href="#social"
+          </Link>
+          <Link
+            to={"/followUs"}
             className="flex items-center space-x-2 hover:text-red-500"
           >
             <span>Follow Us On</span>
             <i className="fa-brands fa-youtube text-red-500"></i>
             <i className="fa-brands fa-tiktok"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </motion.nav>

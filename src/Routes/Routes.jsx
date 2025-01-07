@@ -3,8 +3,13 @@ import Main from "../Layout/Main";
 import AboutUs from "../pages/AboutUs";
 import Developers from "../pages/Developers";
 import FollowUs from "../pages/FollowUs";
+import Game1Level1 from "../pages/Game1/Game1Level1";
+import Game1Level2 from "../pages/Game1/Game1Level2";
+import Game1Level3 from "../pages/Game1/Game1Level3";
+import Game1Level4 from "../pages/Game1/Game1Level4";
+import GameDetails from "../pages/GameDetails";
+import GameLevel from "../pages/GameLevel";
 import Home from "../pages/Home";
-import Play from "../pages/Play";
 
 export const router = createBrowserRouter([
   {
@@ -28,8 +33,32 @@ export const router = createBrowserRouter([
         element: <FollowUs></FollowUs>,
       },
       {
-        path: "/play",
-        element: <Play></Play>,
+        path: "/gameLevel",
+        element: <GameLevel></GameLevel>,
+      },
+      {
+        path: "/gameLevel/:id",
+        element: <GameDetails></GameDetails>,
+      },
+      // {
+      //   path: "/game1Animation",
+      //   element: <Game1Animation></Game1Animation>,
+      // },
+      {
+        path: "/game1level1",
+        element: <Game1Level1></Game1Level1>,
+      },
+      {
+        path: "/game1level2",
+        element: <Game1Level2></Game1Level2>,
+      },
+      {
+        path: "/game1level3",
+        element: <Game1Level3></Game1Level3>,
+      },
+      {
+        path: "/game1level4",
+        element: <Game1Level4></Game1Level4>,
       },
     ],
   },

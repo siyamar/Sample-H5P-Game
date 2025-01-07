@@ -28,7 +28,7 @@ const Banner = () => {
               whileHover={{ scale: 1.1 }}
               className="btn  btn-secondary"
             >
-              <Link to={"/play"}>Play</Link>
+              <Link to={"/gameLevel"}>Play</Link>
             </motion.button>
           </div>
         </motion.div>

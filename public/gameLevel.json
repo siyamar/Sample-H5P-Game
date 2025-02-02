@@ -12,6 +12,7 @@
     "title": "Password Security Challenge",
     "image": "/public/images/level2.avif",
     "description": "Understand how to create strong passwords.",
+    "videoUrl": "/public/animation1.mp4",
     "detailedDescription": "Learn the importance of unique and complex passwords. Understand the risks of password reuse across platforms. Discover the benefits of using password managers. Practice creating passwords that are secure yet memorable. Explore the impact of two-factor authentication on security."
   },
   {
@@ -19,6 +20,7 @@
     "title": "Social Engineering Defense",
     "image": "/public/images/level3.avif",
     "description": "Protect yourself from social engineering tactics.",
+    "videoUrl": "/public/animation1.mp4",
     "detailedDescription": "Understand the psychology behind social engineering attacks. Identify common social engineering scenarios and red flags. Learn strategies to verify the authenticity of requests. Practice responding to social engineering attempts in simulations. Discover how to educate others on social engineering risks."
   },
   {
@@ -26,6 +28,7 @@
     "title": "Safe Browsing Adventure",
     "image": "/public/images/level4.avif",
     "description": "Navigate the internet safely.",
+    "videoUrl": "/public/animation1.mp4",
     "detailedDescription": "Learn how to recognize secure websites and connections. Understand the risks of unsecured public Wi-Fi networks. Discover best practices for downloading files safely. Gain knowledge on privacy settings in modern web browsers. Explore tips to avoid online scams and frauds."
   },
   {
@@ -33,6 +36,7 @@
     "title": "Malware Detection Quest",
     "image": "/public/images/level5.avif",
     "description": "Identify and avoid malware threats.",
+    "videoUrl": "/public/animation1.mp4",
     "detailedDescription": "Understand how malware spreads and its common forms. Learn to recognize signs of malware infection. Discover tools and practices for malware prevention. Explore strategies to safely remove malware from infected devices. Gain insights into the latest malware trends and threats."
   },
   {
@@ -40,6 +44,7 @@
     "title": "Cyber Ethics Explorer",
     "image": "/public/images/level6.avif",
     "description": "Understand ethical behavior in cyberspace.",
+    "videoUrl": "/public/animation1.mp4",
     "detailedDescription": "Learn the principles of responsible online behavior. Understand the impact of unethical actions on cyberspace. Explore the importance of digital citizenship and netiquette. Discover how to report unethical activities responsibly. Gain knowledge of global cyber ethics guidelines and practices."
   }
 ]

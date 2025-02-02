@@ -35,11 +35,11 @@ function GameDetails() {
       <div className="text-right mr-16">
         <button className="btn  btn-secondary mr-2">
           {" "}
-          <Link to={"/gamelevel"}>Back</Link>
+          <Link to={`/gameLevelCategory/${id}`}>Back</Link>
         </button>
         <button className="btn  btn-secondary">
           {" "}
-          <Link to={"/game1level1"}>Game Start</Link>
+          <Link to={`/game/${id}/level1`}>Game Start</Link>
         </button>
       </div>
     </div>

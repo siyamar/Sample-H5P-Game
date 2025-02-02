@@ -5,9 +5,20 @@ const FunnyVideos = () => {
   const videos = [
     {
       id: 1,
-      image: "/images/Rectangle4.png",
       description: "No Download. No Installs. Play games instantly on Gamer.",
     },
+    {
+      id: 2,
+      description: "No Download. No Installs. Play games instantly on Gamer.",
+    },
+    {
+      id: 3,
+      description: "No Download. No Installs. Play games instantly on Gamer.",
+    },
+    {
+      id: 4,
+      description: "No Download. No Installs. Play games instantly on Gamer.",
+    }
     // Add more video items here
   ];
 
@@ -31,11 +42,14 @@ const FunnyVideos = () => {
               transition={{ duration: 0.8 }}
             >
               <div className="relative">
-                <img
-                  src={video.image}
-                  alt={`Video ${video.id}`}
-                  className="w-full h-48 object-cover"
-                />
+              <video
+        className=" mx-auto my-4"
+        width={900}
+        autoPlay
+        loop
+        muted
+        src="/public/animation1.mp4"
+      ></video>
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                   <i className="fa-solid fa-play text-white text-4xl"></i>
                 </div>

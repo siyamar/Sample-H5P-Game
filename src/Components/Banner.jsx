@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import "tailwindcss/tailwind.css";
 
 const Banner = () => {
+  
   return (
     <section className="bg-blue-500 text-white p-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -22,7 +23,8 @@ const Banner = () => {
               whileHover={{ scale: 1.1 }}
               className="btn btn-secondary"
             >
-              Sign In
+              <Link to={"/signUp"}>Sign Up</Link>
+              
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.1 }}

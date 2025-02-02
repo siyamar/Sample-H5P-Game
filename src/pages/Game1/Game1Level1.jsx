@@ -1,6 +1,7 @@
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 
 function Game1Level1() {
+  const { id } = useParams();
   return (
     <div className="my-10">
       <div className="text-center font-bold text-3xl">Level-1</div>
@@ -17,7 +18,7 @@ function Game1Level1() {
       <div className="text-right mr-16">
         <button className="btn  btn-secondary mr-2">
           {" "}
-          <Link to={"/game1animation"}>Back</Link>
+          <Link to={`/gameLevel/${id}`}>Back</Link>
         </button>
         <button className="btn  btn-secondary">
           {" "}

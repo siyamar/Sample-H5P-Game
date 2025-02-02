@@ -10,6 +10,11 @@ import Game1Level4 from "../pages/Game1/Game1Level4";
 import GameDetails from "../pages/GameDetails";
 import GameLevel from "../pages/GameLevel";
 import Home from "../pages/Home";
+import SignUp from "../pages/signUp/SignUp";
+import Login from "../pages/Login/Login";
+import ProfileCard from "../pages/ProfileCard/ProfileCard";
+import GameLevelCategory from "../pages/GameLevelCategory";
+import SeekAdvice from "../pages/SeekAdvice";
 
 export const router = createBrowserRouter([
   {
@@ -25,12 +30,28 @@ export const router = createBrowserRouter([
         element: <AboutUs></AboutUs>,
       },
       {
-        path: "/Developers",
+        path: "signUp",
+        element: <SignUp></SignUp>,
+      },
+      {
+        path: "login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/developers",
         element: <Developers></Developers>,
       },
       {
         path: "/followUs",
         element: <FollowUs></FollowUs>,
+      },
+      {
+        path: "/seekAdvice",
+        element: <SeekAdvice></SeekAdvice>,
+      },
+      {
+        path: "/profile",
+        element: <ProfileCard></ProfileCard>,
       },
       {
         path: "/gameLevel",
@@ -40,12 +61,16 @@ export const router = createBrowserRouter([
         path: "/gameLevel/:id",
         element: <GameDetails></GameDetails>,
       },
+      {
+        path: "/gameLevelCategory/:id",
+        element: <GameLevelCategory></GameLevelCategory>,
+      },
       // {
       //   path: "/game1Animation",
       //   element: <Game1Animation></Game1Animation>,
       // },
       {
-        path: "/game1level1",
+        path: "/game/:id/level1",
         element: <Game1Level1></Game1Level1>,
       },
       {
